@@ -1,7 +1,5 @@
 import "./App.css";
-import Features from "./components/features/Features";
-import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/Navbar";
+import { Navbar, Hero, Features, FeatureTabs } from "./components";
 
 function App() {
   return (
@@ -9,6 +7,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <FeatureTabs />
     </div>
   );
 }
