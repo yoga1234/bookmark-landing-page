@@ -1,6 +1,11 @@
 import React from "react";
 
 import "./FeatureTabs.css";
+import {
+  illustrationFeatureTab1,
+  illustrationFeatureTab2,
+  illustrationFeatureTab3,
+} from "../../assets";
 
 const FeatureTabs = () => {
   return (
@@ -13,7 +18,7 @@ const FeatureTabs = () => {
       </div>
       {/* Tabs content */}
       <div className="tabcontent">
-        {/* <img src="" alt="" /> */}
+        <img src={illustrationFeatureTab1} alt="Browser Tabs" />
         <div className="tabcontent-right">
           <h3>Bookmark in one click</h3>
           <p>
@@ -23,19 +28,25 @@ const FeatureTabs = () => {
           </p>
           <button>More Info</button>
         </div>
+      </div>
+      <div className="tabcontent">
+        <img src={illustrationFeatureTab2} alt="Browser Search" />
         <div className="tabcontent-right">
           <h3>Intelligent search</h3>
           <p>
-            Our powerful search feature will help you find saved sites in no
-            time at all. No need to trawl through all of your bookmarks.
+            Our powerful feature will help you find saved sites in no time at
+            all. No need to trawl through all of your bookmarks
           </p>
           <button>More Info</button>
         </div>
+      </div>
+      <div className="tabcontent">
+        <img src={illustrationFeatureTab3} alt="Browser User Find" />
         <div className="tabcontent-right">
-          <h3>Share your bookmarks</h3>
+          <h3>Share you bookmarks</h3>
           <p>
             Easily share your bookmarks and collections with others. Create a
-            shareable link that you can send at the click of a button
+            shareable link that you can send at the click of a button.
           </p>
           <button>More Info</button>
         </div>
