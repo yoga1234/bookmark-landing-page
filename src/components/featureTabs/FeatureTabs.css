@@ -1,0 +1,20 @@
+.tab-container {
+  width: max-content;
+  margin: 50px auto 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.tab-container button {
+  font-family: var(--font-main);
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  background-color: #fff;
+  transition: all 0.22s ease;
+}
+.tab-container button:hover {
+  cursor: pointer;
+  border-color: hsl(0, 94%, 66%);
+  color: rgba(0, 0, 0, 1);
+}

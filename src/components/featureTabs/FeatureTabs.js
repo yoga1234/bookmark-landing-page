@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./FeatureTabs.css";
+
 const FeatureTabs = () => {
   return (
     <div className="feature-tabs-container">
