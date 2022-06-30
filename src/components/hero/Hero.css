@@ -75,6 +75,7 @@
   position: relative;
   bottom: 250px;
   left: 100px;
+  margin-bottom: -250px;
   height: 250px;
   width: 450px;
   background-color: hsl(231, 69%, 60%);
