@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./Navbar.css";
-import bookmarkLogo from "../../assets/logo-bookmark.svg";
+import { logoBookmark } from "../../assets";
 
 const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="left-navbar">
-        <img src={bookmarkLogo} alt="bookmark" />
+        <img src={logoBookmark} alt="bookmark" />
       </div>
       <div className="right-navbar">
         <ul>

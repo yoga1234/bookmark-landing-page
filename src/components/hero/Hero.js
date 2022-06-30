@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Hero.css";
-import heroImg from "../../assets/illustration-hero.svg";
+import { illustrationHero } from "../../assets";
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right-side">
-        <img src={heroImg} alt="Browser Tab" />
+        <img src={illustrationHero} alt="Browser Tab" />
         <div className="blue-hero-block"></div>
       </div>
     </div>
