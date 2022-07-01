@@ -18,7 +18,10 @@ const FeatureTabs = () => {
       </div>
       {/* Tabs content */}
       <div className="tabcontent">
-        <img src={illustrationFeatureTab1} alt="Browser Tabs" />
+        <div className="featurestab-image">
+          <img src={illustrationFeatureTab1} alt="Browser Tabs" />
+          <div className="features-blue-block"></div>
+        </div>
         <div className="tabcontent-right">
           <h3>Bookmark in one click</h3>
           <p>
@@ -30,7 +33,10 @@ const FeatureTabs = () => {
         </div>
       </div>
       <div className="tabcontent">
-        <img src={illustrationFeatureTab2} alt="Browser Search" />
+        <div className="featurestab-image">
+          <img src={illustrationFeatureTab2} alt="Browser Search" />
+          <div className="features-blue-block"></div>
+        </div>
         <div className="tabcontent-right">
           <h3>Intelligent search</h3>
           <p>
@@ -41,7 +47,10 @@ const FeatureTabs = () => {
         </div>
       </div>
       <div className="tabcontent">
-        <img src={illustrationFeatureTab3} alt="Browser User Find" />
+        <div className="featurestab-image">
+          <img src={illustrationFeatureTab3} alt="Browser User Find" />
+          <div className="features-blue-block"></div>
+        </div>
         <div className="tabcontent-right">
           <h3>Share you bookmarks</h3>
           <p>

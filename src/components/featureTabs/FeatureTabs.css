@@ -18,3 +18,41 @@
   border-color: hsl(0, 94%, 66%);
   color: rgba(0, 0, 0, 1);
 }
+.tabcontent {
+  display: flex;
+  flex-direction: row;
+  column-gap: 75px;
+  width: max-content;
+  margin: 75px auto 0 auto;
+}
+.tabcontent img {
+  width: 450px;
+}
+.tabcontent-right h3 {
+  font-family: var(--font-main);
+  font-size: 24px;
+  margin-top: 65px;
+}
+.tabcontent-right p {
+  font-family: var(--font-main);
+  width: 385px;
+  color: rgba(0, 0, 0, 0.55);
+}
+.tabcontent-right button {
+  font-family: var(--font-main);
+  color: #fff;
+  padding: 13px 25px 13px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(231, 69%, 60%);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.15s ease;
+}
+.tabcontent-right button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
