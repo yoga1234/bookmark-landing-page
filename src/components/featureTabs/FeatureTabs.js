@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./FeatureTabs.css";
 import {
@@ -8,13 +8,36 @@ import {
 } from "../../assets";
 
 const FeatureTabs = () => {
+  const [activeTabs, setActiveTabs] = useState(1);
+
   return (
     <div className="feature-tabs-container">
       {/* Tabs Button */}
       <div className="tab-container">
-        <button>Simple Bookmarking</button>
-        <button>Speedy Searching</button>
-        <button>Easy Sharing</button>
+        <button
+          onClick={() => {
+            setActiveTabs(1);
+          }}
+          className={activeTabs === 1 ? "active" : ""}
+        >
+          Simple Bookmarking
+        </button>
+        <button
+          onClick={() => {
+            setActiveTabs(2);
+          }}
+          className={activeTabs === 2 ? "active" : ""}
+        >
+          Speedy Searching
+        </button>
+        <button
+          onClick={() => {
+            setActiveTabs(3);
+          }}
+          className={activeTabs === 3 ? "active" : ""}
+        >
+          Easy Sharing
+        </button>
       </div>
       {/* Tabs content */}
       <div className="tabcontent">
