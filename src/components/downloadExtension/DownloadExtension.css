@@ -13,3 +13,36 @@
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.6);
 }
+.feature-card {
+  border: 1px solid #000;
+  width: max-content;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.feature-card img {
+  display: block;
+  margin: auto;
+}
+.feature-card h3 {
+  font-family: var(--font-main);
+  text-align: center;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.9);
+}
+.feature-card p {
+  font-family: var(--font-main);
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+.feature-card button {
+  font-family: var(--font-main);
+  padding: 15px 25px;
+  border: none;
+  border-radius: 7px;
+  background-color: hsl(231, 69%, 60%);
+  color: #fff;
+}

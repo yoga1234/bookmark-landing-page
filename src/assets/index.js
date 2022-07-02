@@ -6,6 +6,7 @@ import logoBookmark from "./logo-bookmark.svg";
 import logoChrome from "./logo-chrome.svg";
 import logoFirefox from "./logo-firefox.svg";
 import logoOpera from "./logo-opera.svg";
+import bgDots from "./bg-dots.svg";
 
 export {
   illustrationFeatureTab1,
@@ -16,4 +17,5 @@ export {
   logoChrome,
   logoFirefox,
   logoOpera,
+  bgDots,
 };
