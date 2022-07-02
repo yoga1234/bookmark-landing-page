@@ -29,6 +29,10 @@
   column-gap: 75px;
   width: max-content;
   margin: 75px auto 0 auto;
+  transition: all 0.15s ease;
+}
+.tabcontent.hidden {
+  display: none;
 }
 .tabcontent img {
   position: relative;

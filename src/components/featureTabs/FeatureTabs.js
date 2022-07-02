@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import "./FeatureTabs.css";
 import {
@@ -40,7 +40,7 @@ const FeatureTabs = () => {
         </button>
       </div>
       {/* Tabs content */}
-      <div className="tabcontent">
+      <div className={activeTabs === 1 ? "tabcontent" : "tabcontent hidden"}>
         <div className="featurestab-image">
           <img src={illustrationFeatureTab1} alt="Browser Tabs" />
           <div className="features-blue-block"></div>
@@ -55,7 +55,7 @@ const FeatureTabs = () => {
           <button>More Info</button>
         </div>
       </div>
-      <div className="tabcontent">
+      <div className={activeTabs === 2 ? "tabcontent" : "tabcontent hidden"}>
         <div className="featurestab-image">
           <img src={illustrationFeatureTab2} alt="Browser Search" />
           <div className="features-blue-block"></div>
@@ -69,7 +69,7 @@ const FeatureTabs = () => {
           <button>More Info</button>
         </div>
       </div>
-      <div className="tabcontent">
+      <div className={activeTabs === 3 ? "tabcontent" : "tabcontent hidden"}>
         <div className="featurestab-image">
           <img src={illustrationFeatureTab3} alt="Browser User Find" />
           <div className="features-blue-block"></div>
