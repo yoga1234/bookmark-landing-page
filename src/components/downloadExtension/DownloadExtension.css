@@ -1,0 +1,15 @@
+.extension-container .top-side h3 {
+  font-family: var(--font-main);
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+.extension-container .top-side p {
+  font-family: var(--font-main);
+  width: 500px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+}

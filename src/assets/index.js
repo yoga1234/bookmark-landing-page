@@ -3,6 +3,9 @@ import illustrationFeatureTab2 from "./illustration-features-tab-2.svg";
 import illustrationFeatureTab3 from "./illustration-features-tab-3.svg";
 import illustrationHero from "./illustration-hero.svg";
 import logoBookmark from "./logo-bookmark.svg";
+import logoChrome from "./logo-chrome.svg";
+import logoFirefox from "./logo-firefox.svg";
+import logoOpera from "./logo-opera.svg";
 
 export {
   illustrationFeatureTab1,
@@ -10,4 +13,7 @@ export {
   illustrationFeatureTab3,
   illustrationHero,
   logoBookmark,
+  logoChrome,
+  logoFirefox,
+  logoOpera,
 };

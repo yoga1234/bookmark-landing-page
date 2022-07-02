@@ -1,6 +1,11 @@
 import "./App.css";
-import { Navbar, Hero, Features, FeatureTabs } from "./components";
-import DownloadExtension from "./components/downloadExtension/DownloadExtension";
+import {
+  Navbar,
+  Hero,
+  Features,
+  FeatureTabs,
+  DownloadExtension,
+} from "./components";
 
 function App() {
   return (
