@@ -13,17 +13,40 @@
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.6);
 }
+.bottom-side {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  justify-content: center;
+  margin-top: 75px;
+}
 .feature-card {
-  border: 1px solid #000;
   width: max-content;
+  height: max-content;
   padding-top: 25px;
   padding-right: 20px;
   padding-bottom: 25px;
   padding-left: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.15s ease;
+}
+.feature-card:nth-child(2) {
+  margin-top: 20px;
+}
+.feature-card:nth-child(3) {
+  margin-top: 40px;
 }
 .feature-card img {
   display: block;
   margin: auto;
+}
+.feature-card:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .feature-card h3 {
   font-family: var(--font-main);
@@ -45,4 +68,9 @@
   border-radius: 7px;
   background-color: hsl(231, 69%, 60%);
   color: #fff;
+}
+.feature-card button:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
