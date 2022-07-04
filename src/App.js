@@ -6,6 +6,7 @@ import {
   FeatureTabs,
   DownloadExtension,
 } from "./components";
+import Faq from "./components/faq/Faq";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <FeatureTabs />
       <DownloadExtension />
+      <Faq />
     </div>
   );
 }
