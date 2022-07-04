@@ -1,0 +1,8 @@
+.faq-heading-container h3 {
+  font-family: var(--font-main);
+  font-size: 24px;
+  font-weight: 500;
+}
+.faq-heading-container p {
+  font-family: var(--font-main);
+}
