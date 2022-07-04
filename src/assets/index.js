@@ -7,6 +7,7 @@ import logoChrome from "./logo-chrome.svg";
 import logoFirefox from "./logo-firefox.svg";
 import logoOpera from "./logo-opera.svg";
 import bgDots from "./bg-dots.svg";
+import iconArrow from "./icon-arrow.svg";
 
 export {
   illustrationFeatureTab1,
@@ -18,4 +19,5 @@ export {
   logoFirefox,
   logoOpera,
   bgDots,
+  iconArrow,
 };
