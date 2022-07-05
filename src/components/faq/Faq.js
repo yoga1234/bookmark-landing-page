@@ -65,11 +65,13 @@ const Faq = () => {
             <img src={iconArrow} alt="arrow" />
           </div>
           <div className="faq-item-content">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia,
-            enim qui aperiam error tempora, porro quis consequuntur esse
-            corrupti nulla at officiis, inventore reprehenderit officia alias
-            aliquid harum nemo. Aliquam officiis dolores quis quasi in ipsa
-            totam soluta repellendus explicabo.
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Mollitia, enim qui aperiam error tempora, porro quis consequuntur
+              esse corrupti nulla at officiis, inventore reprehenderit officia
+              alias aliquid harum nemo. Aliquam officiis dolores quis quasi in
+              ipsa totam soluta repellendus explicabo.
+            </p>
           </div>
         </div>
         <button>More Info</button>
