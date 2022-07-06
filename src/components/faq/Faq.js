@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./Faq.css";
 import { iconArrow } from "../../assets";
 
 const Faq = () => {
+  useEffect(() => {
+    const faqContent = document.querySelectorAll(".faq-item-content p");
+
+    faqContent.forEach((item) => {
+      item.classList.add("hidden");
+    });
+  }, []);
   return (
     <div className="faq-container">
       <div className="faq-heading-container">
