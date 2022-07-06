@@ -4,6 +4,11 @@ import "./Faq.css";
 import { iconArrow } from "../../assets";
 
 const Faq = () => {
+  const toggleHiden = (e) => {
+    console.log(e.target);
+    // e.target.nextSibling.firstChild.classList.toggle("hidden");
+  };
+
   useEffect(() => {
     const faqContent = document.querySelectorAll(".faq-item-content p");
 
@@ -22,7 +27,7 @@ const Faq = () => {
       </div>
       <div className="faq-content-dropdown">
         <div className="faq-item">
-          <div className="faq-item-header">
+          <div onClick={toggleHiden} className="faq-item-header">
             <h3>What is Bookmark?</h3>
             <img src={iconArrow} alt="arrow" />
           </div>
@@ -37,7 +42,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="faq-item">
-          <div className="faq-item-header">
+          <div onClick={toggleHiden} className="faq-item-header">
             <h3>How can I request a new browser?</h3>
             <img src={iconArrow} alt="arrow" />
           </div>
@@ -52,7 +57,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="faq-item">
-          <div className="faq-item-header">
+          <div onClick={toggleHiden} className="faq-item-header">
             <h3>Is there a mobile app?</h3>
             <img src={iconArrow} alt="arrow" />
           </div>
@@ -67,7 +72,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="faq-item">
-          <div className="faq-item-header">
+          <div onClick={toggleHiden} className="faq-item-header">
             <h3>What about other Chromium Browser?</h3>
             <img src={iconArrow} alt="arrow" />
           </div>
@@ -81,7 +86,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <button>More Info</button>
+        <button className="faq-more-btn">More Info</button>
       </div>
     </div>
   );
