@@ -5,8 +5,9 @@ import {
   Features,
   FeatureTabs,
   DownloadExtension,
+  Faq,
+  Uptodate,
 } from "./components";
-import Faq from "./components/faq/Faq";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FeatureTabs />
       <DownloadExtension />
       <Faq />
+      <Uptodate />
     </div>
   );
 }
