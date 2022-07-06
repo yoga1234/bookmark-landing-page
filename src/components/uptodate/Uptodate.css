@@ -1,0 +1,24 @@
+.uptodate-container {
+  background-color: hsl(231, 69%, 60%);
+  width: 100%;
+  margin: 0;
+}
+.uptodate-container p {
+  font-family: var(--font-main);
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 175px;
+}
+.uptodate-container h3 {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 32px;
+  width: 410px;
+  text-align: center;
+  margin: auto;
+}
+.form-main {
+  display: flex;
+  flex-direction: row;
+}
