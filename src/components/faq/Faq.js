@@ -5,8 +5,11 @@ import { iconArrow } from "../../assets";
 
 const Faq = () => {
   const toggleHiden = (e) => {
-    console.log(e.target);
-    // e.target.nextSibling.firstChild.classList.toggle("hidden");
+    if (e.target.tagName === "H3" || e.target.tagName === "IMG") {
+      e.target.parentElement.nextSibling.firstChild.classList.toggle("hidden");
+    } else {
+      e.target.nextSibling.firstChild.classList.toggle("hidden");
+    }
   };
 
   useEffect(() => {
