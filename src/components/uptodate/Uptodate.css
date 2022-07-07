@@ -30,6 +30,7 @@
   margin: 35px auto 0 auto;
 }
 .form-mail button {
+  font-family: var(--font-main);
   background-color: hsl(0, 94%, 66%);
   color: #fff;
   padding: 13px 20px 13px 20px;
@@ -37,6 +38,7 @@
   border-radius: 5px;
 }
 .form-mail input {
+  font-family: var(--font-main);
   padding: 12px 75px 12px 12px;
   border: none;
   border-radius: 5px;
