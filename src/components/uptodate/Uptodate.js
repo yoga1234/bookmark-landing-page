@@ -8,7 +8,7 @@ const Uptodate = () => {
       <p>35.000+ ALREADY JOINED</p>
       <h3>Stay up-to-date with what we're doing</h3>
       <div className="form-mail">
-        <input type="text" />
+        <input type="text" placeholder="Enter your emal address" />
         <button>Contact Us</button>
       </div>
     </div>
