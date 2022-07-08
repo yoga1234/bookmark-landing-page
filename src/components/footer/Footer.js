@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./Footer.css";
-import { logoBookmark, iconFacebook, iconTwitter } from "../../assets";
+import { logoBookmarkWhite, iconFacebook, iconTwitter } from "../../assets";
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-left">
-        <img src={logoBookmark} alt="Bookmark" />
+        <img src={logoBookmarkWhite} alt="Bookmark" />
         <p>FEATURES</p>
         <p>PRICING</p>
         <p>CONTACT</p>

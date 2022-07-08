@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(229, 31%, 21%);
+}
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.footer-left img {
+  width: 150px;
+  height: 25px;
+}
+.footer-left p {
+  color: #fff;
+  font-family: var(--font-main);
+  font-size: 14px;
+}
+.footer-right {
+  display: flex;
+  flex-direction: row;
+}
+.footer-right img {
+  width: 25px;
+  height: 25px;
+}
