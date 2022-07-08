@@ -8,6 +8,8 @@ import logoFirefox from "./logo-firefox.svg";
 import logoOpera from "./logo-opera.svg";
 import bgDots from "./bg-dots.svg";
 import iconArrow from "./icon-arrow.svg";
+import iconFacebook from "./icon-facebook.svg";
+import iconTwitter from "./icon-twitter.svg";
 
 export {
   illustrationFeatureTab1,
@@ -20,4 +22,6 @@ export {
   logoOpera,
   bgDots,
   iconArrow,
+  iconFacebook,
+  iconTwitter,
 };

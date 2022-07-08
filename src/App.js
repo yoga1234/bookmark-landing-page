@@ -8,6 +8,7 @@ import {
   Faq,
   Uptodate,
 } from "./components";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <DownloadExtension />
       <Faq />
       <Uptodate />
+      <Footer />
     </div>
   );
 }
