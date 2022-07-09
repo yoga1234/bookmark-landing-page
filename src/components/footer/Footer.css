@@ -13,7 +13,7 @@
   column-gap: 40px;
 }
 .footer-left img {
-  margin-top: 20px;
+  margin-top: 18px;
   width: 150px;
   height: 25px;
 }
@@ -31,8 +31,13 @@
 .footer-right {
   display: flex;
   flex-direction: row;
+  column-gap: 30px;
+  margin-top: 18px;
 }
 .footer-right img {
   width: 25px;
   height: 25px;
+}
+.footer-right img:hover {
+  cursor: pointer;
 }
