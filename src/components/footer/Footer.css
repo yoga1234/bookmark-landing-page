@@ -1,11 +1,14 @@
 .footer-container {
+  background-color: hsl(229, 31%, 21%);
+  height: 60px;
+}
+.footer-container .footer-width {
+  width: 80%;
+  max-width: 1300px;
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: hsl(229, 31%, 21%);
-  padding-left: 75px;
-  padding-right: 75px;
-  height: 60px;
 }
 .footer-left {
   display: flex;
