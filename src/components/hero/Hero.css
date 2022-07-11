@@ -81,3 +81,17 @@
   background-color: hsl(231, 69%, 60%);
   border-radius: 125px 0 0 125px;
 }
+@media only screen and (max-width: 1024px) {
+  .hero-container {
+    column-gap: 0px;
+  }
+  .hero-left-side p {
+    max-width: 400px;
+  }
+  .hero-right-side img {
+    width: 475px;
+  }
+  .blue-hero-block {
+    left: 50px;
+  }
+}
