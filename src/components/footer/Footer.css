@@ -29,7 +29,7 @@
 }
 .footer-left p:hover {
   cursor: pointer;
-  color: rgba(255, 255, 255, 1);
+  color: hsl(0, 94%, 66%);
 }
 .footer-right {
   display: flex;

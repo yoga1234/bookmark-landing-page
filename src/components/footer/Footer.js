@@ -1,7 +1,13 @@
 import React from "react";
 
 import "./Footer.css";
-import { logoBookmarkWhite, iconFacebook, iconTwitter } from "../../assets";
+import {
+  logoBookmarkWhite,
+  iconFacebook,
+  iconTwitter,
+  iconFacebookRed,
+  iconTwitterRed,
+} from "../../assets";
 
 const Footer = () => {
   return (
@@ -14,8 +20,18 @@ const Footer = () => {
           <p>CONTACT</p>
         </div>
         <div className="footer-right">
-          <img src={iconFacebook} alt="Facebook" />
-          <img src={iconTwitter} alt="Twitter" />
+          <img
+            src={iconFacebook}
+            alt="Facebook"
+            onMouseOver={(e) => (e.currentTarget.src = iconFacebookRed)}
+            onMouseLeave={(e) => (e.currentTarget.src = iconFacebook)}
+          />
+          <img
+            src={iconTwitter}
+            alt="Twitter"
+            onMouseOver={(e) => (e.currentTarget.src = iconTwitterRed)}
+            onMouseLeave={(e) => (e.currentTarget.src = iconTwitter)}
+          />
         </div>
       </div>
     </div>

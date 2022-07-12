@@ -4,6 +4,7 @@
 .faq-item-header:hover {
   cursor: pointer;
   background-color: #d9d9d9;
+  color: hsl(0, 94%, 66%);
 }
 .faq-heading-container h3 {
   font-family: var(--font-main);
@@ -38,7 +39,7 @@
 }
 .faq-item-header h3 {
   font-family: var(--font-main);
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 25px;
   margin-bottom: 25px;
 }

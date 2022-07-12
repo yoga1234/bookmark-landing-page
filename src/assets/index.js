@@ -11,6 +11,8 @@ import bgDots from "./bg-dots.svg";
 import iconArrow from "./icon-arrow.svg";
 import iconFacebook from "./icon-facebook.svg";
 import iconTwitter from "./icon-twitter.svg";
+import iconFacebookRed from "./icon-facebook-red.svg";
+import iconTwitterRed from "./icon-twitter-red.svg";
 
 export {
   illustrationFeatureTab1,
@@ -26,4 +28,6 @@ export {
   iconArrow,
   iconFacebook,
   iconTwitter,
+  iconFacebookRed,
+  iconTwitterRed,
 };

@@ -7,10 +7,12 @@ const Uptodate = () => {
     <div className="uptodate-container">
       <p>35.000+ ALREADY JOINED</p>
       <h3>Stay up-to-date with what we're doing</h3>
-      <div className="form-mail">
-        <input type="text" placeholder="Enter your emal address" />
-        <button>Contact Us</button>
-      </div>
+      <form action="">
+        <div className="form-mail">
+          <input type="text" placeholder="Enter your emal address" required />
+          <button>Contact Us</button>
+        </div>
+      </form>
     </div>
   );
 };

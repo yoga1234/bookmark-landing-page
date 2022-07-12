@@ -21,7 +21,7 @@
 .tab-container button:hover {
   cursor: pointer;
   border-color: hsl(0, 94%, 66%);
-  color: rgba(0, 0, 0, 1);
+  color: hsl(0, 94%, 66%);
 }
 .tabcontent {
   display: flex;
