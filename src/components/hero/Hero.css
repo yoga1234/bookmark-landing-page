@@ -95,3 +95,27 @@
     left: 50px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-left-side h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-left-side p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-button-container {
+    justify-content: center;
+  }
+  .hero-left-side {
+    order: 2;
+  }
+  .hero-right-side {
+    order: 1;
+  }
+}
