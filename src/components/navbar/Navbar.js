@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Navbar.css";
-import { logoBookmark } from "../../assets";
+import { logoBookmark, iconHamburger, iconClose } from "../../assets";
 
 const Navbar = () => {
   return (
@@ -11,11 +11,14 @@ const Navbar = () => {
       </div>
       <div className="right-navbar">
         <ul>
-          <li>FEATURES</li>
-          <li>PRICING</li>
-          <li>CONTACT</li>
-          <li>
+          <li className="navbar-btn">FEATURES</li>
+          <li className="navbar-btn">PRICING</li>
+          <li className="navbar-btn">CONTACT</li>
+          <li className="navbar-btn">
             <button>LOGIN</button>
+          </li>
+          <li>
+            <img src={iconHamburger} alt="hamburger" />
           </li>
         </ul>
       </div>

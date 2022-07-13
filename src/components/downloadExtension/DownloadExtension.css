@@ -81,3 +81,11 @@
   color: hsl(231, 69%, 60%);
   background-color: #fff;
 }
+@media only screen and (max-width: 425px) {
+  .bottom-side {
+    flex-direction: column;
+  }
+  .extension-container .top-side p {
+    width: 375px;
+  }
+}

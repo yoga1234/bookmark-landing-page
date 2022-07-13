@@ -13,6 +13,8 @@ import iconFacebook from "./icon-facebook.svg";
 import iconTwitter from "./icon-twitter.svg";
 import iconFacebookRed from "./icon-facebook-red.svg";
 import iconTwitterRed from "./icon-twitter-red.svg";
+import iconClose from "./icon-close.svg";
+import iconHamburger from "./icon-hamburger.svg";
 
 export {
   illustrationFeatureTab1,
@@ -30,4 +32,6 @@ export {
   iconTwitter,
   iconFacebookRed,
   iconTwitterRed,
+  iconClose,
+  iconHamburger,
 };

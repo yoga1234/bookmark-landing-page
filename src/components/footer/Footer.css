@@ -1,6 +1,7 @@
 .footer-container {
   background-color: hsl(229, 31%, 21%);
   height: 60px;
+  width: 100%;
 }
 .footer-container .footer-width {
   width: 80%;
@@ -43,4 +44,15 @@
 }
 .footer-right img:hover {
   cursor: pointer;
+}
+@media only screen and (max-width: 425px) {
+  .footer-container {
+    height: max-content;
+  }
+  .footer-container .footer-width {
+    flex-direction: column;
+  }
+  .footer-left {
+    flex-direction: column;
+  }
 }
