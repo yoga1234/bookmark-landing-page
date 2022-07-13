@@ -84,4 +84,18 @@
   .tabcontent {
     flex-direction: column;
   }
+  .tabcontent-right h3 {
+    text-align: center;
+  }
+  .tabcontent-right p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tabcontent-right button {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
