@@ -46,3 +46,27 @@
 .form-mail button:hover {
   cursor: pointer;
 }
+@media only screen and (max-width: 425px) {
+  .uptodate-container h3 {
+    font-size: 28px;
+    max-width: 359px;
+  }
+  .form-mail {
+    flex-direction: column;
+    width: auto;
+  }
+  .form-mail input {
+    width: 75%;
+    height: 50px;
+    padding: 0;
+    margin: auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .form-mail button {
+    width: 75%;
+    padding: 0;
+    height: 50px;
+    margin: 10px auto 0 auto;
+  }
+}

@@ -18,7 +18,11 @@ const Navbar = () => {
             <button>LOGIN</button>
           </li>
           <li>
-            <img src={iconHamburger} alt="hamburger" />
+            <img
+              className="hamburger-icon"
+              src={iconHamburger}
+              alt="hamburger"
+            />
           </li>
         </ul>
       </div>

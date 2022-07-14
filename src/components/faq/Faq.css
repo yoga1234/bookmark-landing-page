@@ -80,9 +80,9 @@
 }
 @media only screen and (max-width: 425px) {
   .faq-item {
-    width: 375px;
+    width: 350px;
   }
   .faq-heading-container p {
-    width: 375px;
+    width: 300px;
   }
 }

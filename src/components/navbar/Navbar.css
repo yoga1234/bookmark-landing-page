@@ -48,8 +48,18 @@
   color: hsl(0, 94%, 66%);
   cursor: pointer;
 }
+.hamburger-icon {
+  display: none;
+}
 @media only screen and (max-width: 425px) {
+  .left-navbar {
+    margin-top: 37px;
+  }
   .navbar-btn {
     display: none;
+  }
+  .hamburger-icon {
+    display: block;
+    margin-right: 25px;
   }
 }
