@@ -119,3 +119,18 @@
     width: 300px;
   }
 }
+@media only screen and (max-width: 320px) {
+  .tabcontent img {
+    width: 250px;
+    left: 0;
+  }
+  .features-blue-block {
+    width: 250px;
+    height: 150px;
+    left: -10px;
+    bottom: 120px;
+  }
+  .tabcontent-right p {
+    width: 250px;
+  }
+}

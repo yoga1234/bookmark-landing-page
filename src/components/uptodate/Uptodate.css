@@ -70,3 +70,8 @@
     margin: 10px auto 0 auto;
   }
 }
+@media only screen and (max-width: 320px) {
+  .uptodate-container h3 {
+    width: 90%;
+  }
+}

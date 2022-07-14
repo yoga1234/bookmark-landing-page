@@ -139,3 +139,27 @@
     width: 300px;
   }
 }
+@media only screen and (max-width: 320px) {
+  .hero-right-side img {
+    left: 15px;
+    width: 250px;
+  }
+  .blue-hero-block {
+    left: 25px;
+    width: 250px;
+    height: 150px;
+    bottom: 170px;
+  }
+  .hero-button-container {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .hero-left-side p {
+    width: 250px;
+  }
+  .hero-button-container .hero-button {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
