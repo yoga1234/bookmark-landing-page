@@ -7,20 +7,22 @@ import {
   DownloadExtension,
   Faq,
   Uptodate,
+  Footer,
+  FullMenu,
 } from "./components";
-import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <FullMenu />
+      {/* <Navbar />
       <Hero />
       <Features />
       <FeatureTabs />
       <DownloadExtension />
       <Faq />
       <Uptodate />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
