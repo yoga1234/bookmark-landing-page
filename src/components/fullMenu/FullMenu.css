@@ -9,10 +9,16 @@
   justify-content: space-between;
   width: 80%;
   margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .heading img:nth-child(1) {
   height: 25px;
   width: 150px;
+}
+.heading img:nth-child(2) {
+  width: 22px;
+  height: 20px;
 }
 .menu ul {
   width: 80%;
@@ -23,26 +29,35 @@
 .menu ul li {
   list-style: none;
   font-family: var(--font-main);
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 300;
   letter-spacing: 1px;
   color: #fff;
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .menu ul button {
-  width: 75%;
-  height: 40px;
-  margin: auto;
+  width: 100%;
   display: block;
   border: 2px solid #fff;
+  border-radius: 5px;
   color: #fff;
   font-size: 28px;
   background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 25px;
 }
 .fullmenu-bottom {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  column-gap: 20px;
+  column-gap: 25px;
+  margin-top: 50px;
+}
+.fullmenu-bottom img {
+  width: 30px;
+  height: 30px;
 }
