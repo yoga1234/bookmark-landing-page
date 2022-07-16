@@ -1,8 +1,7 @@
 import React from "react";
 
 import "./Navbar.css";
-import { logoBookmark, iconHamburger, iconClose } from "../../assets";
-import { useEffect } from "react";
+import { logoBookmark, iconHamburger } from "../../assets";
 
 const Navbar = () => {
   const handleMenu = () => {
