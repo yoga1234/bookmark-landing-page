@@ -15,14 +15,14 @@ function App() {
   return (
     <div className="App">
       <FullMenu />
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Features />
       <FeatureTabs />
       <DownloadExtension />
       <Faq />
       <Uptodate />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

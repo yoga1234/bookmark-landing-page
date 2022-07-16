@@ -2,8 +2,14 @@ import React from "react";
 
 import "./Navbar.css";
 import { logoBookmark, iconHamburger, iconClose } from "../../assets";
+import { useEffect } from "react";
 
 const Navbar = () => {
+  const handleMenu = () => {
+    const fullMenuUI = document.querySelector(".fullmenu-container");
+
+    fullMenuUI.style.bottom = "0";
+  };
   return (
     <div className="navbar-container">
       <div className="left-navbar">
@@ -19,6 +25,7 @@ const Navbar = () => {
           </li>
           <li>
             <img
+              onClick={handleMenu}
               className="hamburger-icon"
               src={iconHamburger}
               alt="hamburger"

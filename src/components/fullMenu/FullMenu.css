@@ -1,7 +1,11 @@
 .fullmenu-container {
   width: 100vw;
   height: 100vh;
-  background-color: hsl(229deg 31% 21% / 75%);
+  background-color: hsl(229deg 31% 21% / 98%);
+  position: fixed;
+  bottom: 100vh;
+  z-index: 99;
+  transition: all 0.25s ease;
 }
 .heading {
   display: flex;

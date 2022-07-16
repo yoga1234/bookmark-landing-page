@@ -9,12 +9,17 @@ import {
 import "./FullMenu.css";
 
 const FullMenu = () => {
+  const closeMenu = () => {
+    const menuUI = document.querySelector(".fullmenu-container");
+
+    menuUI.style.bottom = "100vh";
+  };
   return (
     <div className="fullmenu-container">
       <div className="fullmenu-top">
         <div className="heading">
           <img src={logoBookmarkWhite} alt="Bookmark" />
-          <img src={iconClose} alt="Close" />
+          <img onClick={closeMenu} src={iconClose} alt="Close" />
         </div>
         <div className="menu">
           <ul>
