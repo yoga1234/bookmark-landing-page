@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  logoBookmark,
+  logoBookmarkWhite,
   iconTwitter,
   iconFacebook,
   iconClose,
@@ -13,7 +13,7 @@ const FullMenu = () => {
     <div className="fullmenu-container">
       <div className="fullmenu-top">
         <div className="heading">
-          <img src={logoBookmark} alt="Bookmark" />
+          <img src={logoBookmarkWhite} alt="Bookmark" />
           <img src={iconClose} alt="Close" />
         </div>
         <div className="menu">
